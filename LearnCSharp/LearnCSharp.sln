@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispose", "Dispose\Dispose.csproj", "{87FCAA6F-D233-4516-BB32-B9086DE4EFD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructClass", "StructClass\StructClass.csproj", "{AC66828A-C973-4949-B625-7C3A51502996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListComputer", "ListComputer\ListComputer.csproj", "{ED1CEE09-F248-4720-B596-F85F168ABF58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,19 @@ Global
 		{87FCAA6F-D233-4516-BB32-B9086DE4EFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87FCAA6F-D233-4516-BB32-B9086DE4EFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87FCAA6F-D233-4516-BB32-B9086DE4EFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC66828A-C973-4949-B625-7C3A51502996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC66828A-C973-4949-B625-7C3A51502996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC66828A-C973-4949-B625-7C3A51502996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC66828A-C973-4949-B625-7C3A51502996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1CEE09-F248-4720-B596-F85F168ABF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1CEE09-F248-4720-B596-F85F168ABF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1CEE09-F248-4720-B596-F85F168ABF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1CEE09-F248-4720-B596-F85F168ABF58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8490A389-E63A-4294-9F0E-E2DB5434D0AA}
 	EndGlobalSection
 EndGlobal
