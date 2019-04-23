@@ -34,13 +34,16 @@ namespace ListComputer
         {
             List<Obj> from = new List<Obj>();
             from.Add(new Obj(0)); from.Add(new Obj(1)); from.Add(new Obj(2));
+            from.Add(new Obj(4));
 
             List<Obj> to = new List<Obj>();
             to.Add(new Obj(0)); to.Add(new Obj(1)); to.Add(new Obj(3));
 
             var inter = from.Intersect(to, new ObjEquality()).ToList();
-            var except = from.Except(to, new ObjEquality()).ToList();
+            var fromExcept = from.Except(to, new ObjEquality()).ToList();
+            var toExcept = to.Except(from, new ObjEquality()).ToList();
             var union = from.Union(to, new ObjEquality()).ToList();
+            
         }
     }
 }
